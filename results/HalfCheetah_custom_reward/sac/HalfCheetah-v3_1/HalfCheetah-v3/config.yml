@@ -1,0 +1,24 @@
+!!python/object/apply:collections.OrderedDict
+- - - batch_size
+    - 256
+  - - buffer_size
+    - 1000000
+  - - ent_coef
+    - auto
+  - - env_wrapper
+    - utils.wrappers.CustomNormalizedReward:
+        alive_bonus: 0.0
+        ctrl_coeff: 0.1
+        model_dir: /home/zac/Programming/Zac-SSRR/results/halfcheetah/noisy_airl_data_ssrr_4/ssrr/
+  - - gradient_steps
+    - 1
+  - - learning_rate
+    - 0.0003
+  - - learning_starts
+    - 10000
+  - - n_timesteps
+    - 1000000.0
+  - - policy
+    - CustomSACPolicy
+  - - train_freq
+    - 1

@@ -1,0 +1,69 @@
+WARNING:tensorflow:From /home/zac/Programming/Zac-SSRR/global_utils/utils.py:8: The name tf.set_random_seed is deprecated. Please use tf.compat.v1.set_random_seed instead.
+
+WARNING:tensorflow:From script_experiment/noisy_dataset.py:375: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From script_experiment/noisy_dataset.py:377: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+WARNING:tensorflow:From script_experiment/noisy_dataset.py:378: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2021-05-14 00:24:30.823604: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2021-05-14 00:24:30.828205: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 3999980000 Hz
+2021-05-14 00:24:30.828793: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x556440564d30 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-05-14 00:24:30.828845: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2021-05-14 00:24:30.830232: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2021-05-14 00:24:30.878158: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:983] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-05-14 00:24:30.878516: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55644048c270 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2021-05-14 00:24:30.878527: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): NVIDIA GeForce RTX 2080 Ti, Compute Capability 7.5
+2021-05-14 00:24:30.878641: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:983] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-05-14 00:24:30.878921: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1618] Found device 0 with properties: 
+name: NVIDIA GeForce RTX 2080 Ti major: 7 minor: 5 memoryClockRate(GHz): 1.635
+pciBusID: 0000:01:00.0
+2021-05-14 00:24:30.879062: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2021-05-14 00:24:30.879799: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+2021-05-14 00:24:30.880473: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10.0
+2021-05-14 00:24:30.880627: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10.0
+2021-05-14 00:24:30.881508: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10.0
+2021-05-14 00:24:30.882188: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10.0
+2021-05-14 00:24:30.884359: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2021-05-14 00:24:30.884451: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:983] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-05-14 00:24:30.884802: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:983] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-05-14 00:24:30.885108: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1746] Adding visible gpu devices: 0
+2021-05-14 00:24:30.885146: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.0
+2021-05-14 00:24:30.885968: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1159] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-05-14 00:24:30.885978: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1165]      0 
+2021-05-14 00:24:30.885983: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1178] 0:   N 
+2021-05-14 00:24:30.886051: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:983] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-05-14 00:24:30.886431: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:983] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2021-05-14 00:24:30.886739: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1304] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 9164 MB memory) -> physical GPU (device: 0, name: NVIDIA GeForce RTX 2080 Ti, pci bus id: 0000:01:00.0, compute capability: 7.5)
+WARNING:tensorflow:From /home/zac/Programming/Zac-SSRR/rllab_archive/sandbox/rocky/tf/policies/gaussian_mlp_policy.py:58: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From /home/zac/Programming/Zac-SSRR/rllab_archive/sandbox/rocky/tf/core/layers.py:205: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /home/zac/Programming/Zac-SSRR/rllab_archive/sandbox/rocky/tf/core/layers.py:33: The name tf.get_variable is deprecated. Please use tf.compat.v1.get_variable instead.
+
+WARNING:tensorflow:From /home/zac/Programming/Zac-SSRR/rllab_archive/sandbox/rocky/tf/core/layers.py:304: calling RandomUniform.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+WARNING:tensorflow:From /home/zac/Programming/Zac-SSRR/rllab_archive/sandbox/rocky/tf/core/parameterized.py:98: The name tf.get_default_session is deprecated. Please use tf.compat.v1.get_default_session instead.
+
+WARNING:tensorflow:From /home/zac/Programming/Zac-SSRR/rllab_archive/sandbox/rocky/tf/core/parameterized.py:98: The name tf.variables_initializer is deprecated. Please use tf.compat.v1.variables_initializer instead.
+
+WARNING:tensorflow:From /home/zac/Programming/Zac-SSRR/rllab_archive/sandbox/rocky/tf/core/parameterized.py:75: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+Traceback (most recent call last):
+  File "/home/zac/Programming/Zac-SSRR/rllab_archive/rllab/envs/gym_env.py", line 9, in <module>
+    from gym.wrappers.monitoring import logger as monitor_logger
+ImportError: cannot import name 'logger'
+WARNING:tensorflow:From /home/zac/Programming/Zac-SSRR/inverse_rl/models/tf_util.py:11: The name tf.add_to_collection is deprecated. Please use tf.compat.v1.add_to_collection instead.
+
+WARNING:tensorflow:From /home/zac/anaconda2/envs/ssrr/lib/python3.6/site-packages/tensorflow_core/python/ops/math_ops.py:2509: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /home/zac/Programming/Zac-SSRR/inverse_rl/models/airl_state.py:88: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING:tensorflow:From /home/zac/Programming/Zac-SSRR/inverse_rl/models/imitation_learning.py:92: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+WARNING:tensorflow:From /home/zac/Programming/Zac-SSRR/inverse_rl/models/imitation_learning.py:92: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+  0%|          | 0/17 [00:00<?, ?it/s]2021-05-14 00:24:31.550345: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10.0
+  6%|▌         | 1/17 [00:03<00:53,  3.34s/it] 12%|█▏        | 2/17 [00:06<00:47,  3.18s/it] 18%|█▊        | 3/17 [00:09<00:44,  3.15s/it] 24%|██▎       | 4/17 [00:12<00:42,  3.24s/it] 29%|██▉       | 5/17 [00:15<00:36,  3.05s/it] 35%|███▌      | 6/17 [00:18<00:32,  2.91s/it] 41%|████      | 7/17 [00:20<00:27,  2.77s/it] 47%|████▋     | 8/17 [00:23<00:23,  2.66s/it] 53%|█████▎    | 9/17 [00:25<00:20,  2.56s/it] 59%|█████▉    | 10/17 [00:27<00:17,  2.48s/it] 65%|██████▍   | 11/17 [00:30<00:14,  2.40s/it] 71%|███████   | 12/17 [00:32<00:11,  2.35s/it] 76%|███████▋  | 13/17 [00:34<00:08,  2.25s/it] 82%|████████▏ | 14/17 [00:36<00:06,  2.20s/it] 88%|████████▊ | 15/17 [00:38<00:04,  2.12s/it] 94%|█████████▍| 16/17 [00:39<00:01,  1.97s/it]100%|██████████| 17/17 [00:41<00:00,  1.85s/it]100%|██████████| 17/17 [00:41<00:00,  2.44s/it]

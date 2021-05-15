@@ -1,0 +1,129 @@
+****************
+acc: 0.8916
+****************
+loss: 0.901966 (l2_loss: 0.280291), acc: 0.015625, valid_acc: 0.046875
+loss: 0.846665 (l2_loss: 0.280014), acc: 0.093750, valid_acc: 0.093750
+loss: 0.760322 (l2_loss: 0.279753), acc: 0.093750, valid_acc: 0.406250
+loss: 0.698481 (l2_loss: 0.279486), acc: 0.453125, valid_acc: 0.890625
+loss: 0.638496 (l2_loss: 0.279219), acc: 0.859375, valid_acc: 0.906250
+loss: 0.594561 (l2_loss: 0.278962), acc: 0.953125, valid_acc: 0.984375
+loss: 0.562054 (l2_loss: 0.278704), acc: 0.937500, valid_acc: 1.000000
+loss: 0.522250 (l2_loss: 0.278441), acc: 0.937500, valid_acc: 1.000000
+loss: 0.462410 (l2_loss: 0.278172), acc: 1.000000, valid_acc: 0.953125
+loss: 0.425687 (l2_loss: 0.277902), acc: 0.968750, valid_acc: 1.000000
+loss: 0.062297 (l2_loss: 0.232177), acc: 0.984375, valid_acc: 1.000000
+loss: 0.018699 (l2_loss: 0.179582), acc: 1.000000, valid_acc: 1.000000
+loss: 0.034468 (l2_loss: 0.139083), acc: 0.984375, valid_acc: 1.000000
+loss: 0.007821 (l2_loss: 0.108472), acc: 1.000000, valid_acc: 1.000000
+loss: 0.004707 (l2_loss: 0.085660), acc: 1.000000, valid_acc: 1.000000
+loss: 0.019724 (l2_loss: 0.069083), acc: 0.984375, valid_acc: 1.000000
+loss: 0.004795 (l2_loss: 0.056469), acc: 1.000000, valid_acc: 1.000000
+loss: 0.022188 (l2_loss: 0.046829), acc: 0.984375, valid_acc: 1.000000
+loss: 0.003891 (l2_loss: 0.039813), acc: 1.000000, valid_acc: 1.000000
+loss: 0.019650 (l2_loss: 0.034355), acc: 0.984375, valid_acc: 1.000000
+loss: 0.017059 (l2_loss: 0.030382), acc: 1.000000, valid_acc: 1.000000
+loss: 0.001451 (l2_loss: 0.027271), acc: 1.000000, valid_acc: 0.984375
+loss: 0.002338 (l2_loss: 0.024661), acc: 1.000000, valid_acc: 1.000000
+loss: 0.002813 (l2_loss: 0.022511), acc: 1.000000, valid_acc: 1.000000
+loss: 0.010750 (l2_loss: 0.021092), acc: 1.000000, valid_acc: 1.000000
+loss: 0.009287 (l2_loss: 0.020181), acc: 1.000000, valid_acc: 1.000000
+loss: 0.009787 (l2_loss: 0.018807), acc: 1.000000, valid_acc: 1.000000
+loss: 0.002127 (l2_loss: 0.018350), acc: 1.000000, valid_acc: 1.000000
+loss: 0.009085 (l2_loss: 0.017853), acc: 1.000000, valid_acc: 1.000000
+loss: 0.001441 (l2_loss: 0.017289), acc: 1.000000, valid_acc: 1.000000
+loss: 0.003374 (l2_loss: 0.016930), acc: 1.000000, valid_acc: 1.000000
+loss: 0.006439 (l2_loss: 0.016466), acc: 1.000000, valid_acc: 1.000000
+loss: 0.011136 (l2_loss: 0.016154), acc: 1.000000, valid_acc: 1.000000
+loss: 0.004316 (l2_loss: 0.015929), acc: 1.000000, valid_acc: 1.000000
+loss: 0.008460 (l2_loss: 0.015826), acc: 1.000000, valid_acc: 0.984375
+loss: 0.002737 (l2_loss: 0.015920), acc: 1.000000, valid_acc: 1.000000
+loss: 0.003157 (l2_loss: 0.015504), acc: 1.000000, valid_acc: 1.000000
+loss: 0.004179 (l2_loss: 0.015332), acc: 1.000000, valid_acc: 1.000000
+loss: 0.003651 (l2_loss: 0.015396), acc: 1.000000, valid_acc: 1.000000
+****************
+acc: 0.8916
+****************
+loss: 0.515685 (l2_loss: 0.279889), acc: 0.984375, valid_acc: 0.968750
+loss: 0.462947 (l2_loss: 0.279541), acc: 0.937500, valid_acc: 1.000000
+loss: 0.457220 (l2_loss: 0.279187), acc: 0.968750, valid_acc: 0.984375
+loss: 0.400111 (l2_loss: 0.278819), acc: 0.984375, valid_acc: 1.000000
+loss: 0.344890 (l2_loss: 0.278447), acc: 1.000000, valid_acc: 0.953125
+loss: 0.330565 (l2_loss: 0.278071), acc: 0.984375, valid_acc: 1.000000
+loss: 0.354757 (l2_loss: 0.277687), acc: 0.968750, valid_acc: 1.000000
+loss: 0.324235 (l2_loss: 0.277290), acc: 0.953125, valid_acc: 1.000000
+loss: 0.254285 (l2_loss: 0.276884), acc: 1.000000, valid_acc: 0.953125
+loss: 0.260519 (l2_loss: 0.276469), acc: 0.953125, valid_acc: 1.000000
+loss: 0.048350 (l2_loss: 0.214108), acc: 1.000000, valid_acc: 1.000000
+loss: 0.015183 (l2_loss: 0.153054), acc: 1.000000, valid_acc: 1.000000
+loss: 0.030105 (l2_loss: 0.110617), acc: 0.984375, valid_acc: 1.000000
+loss: 0.005281 (l2_loss: 0.081356), acc: 1.000000, valid_acc: 1.000000
+loss: 0.003777 (l2_loss: 0.061388), acc: 1.000000, valid_acc: 1.000000
+loss: 0.016675 (l2_loss: 0.048160), acc: 0.984375, valid_acc: 1.000000
+loss: 0.003701 (l2_loss: 0.038753), acc: 1.000000, valid_acc: 1.000000
+loss: 0.019119 (l2_loss: 0.032085), acc: 0.984375, valid_acc: 1.000000
+loss: 0.003727 (l2_loss: 0.027595), acc: 1.000000, valid_acc: 1.000000
+loss: 0.018499 (l2_loss: 0.024277), acc: 0.984375, valid_acc: 1.000000
+loss: 0.014882 (l2_loss: 0.022136), acc: 1.000000, valid_acc: 1.000000
+loss: 0.001189 (l2_loss: 0.020556), acc: 1.000000, valid_acc: 0.984375
+loss: 0.001740 (l2_loss: 0.019185), acc: 1.000000, valid_acc: 1.000000
+loss: 0.002561 (l2_loss: 0.018035), acc: 1.000000, valid_acc: 1.000000
+loss: 0.010796 (l2_loss: 0.017402), acc: 1.000000, valid_acc: 1.000000
+loss: 0.007570 (l2_loss: 0.017198), acc: 1.000000, valid_acc: 1.000000
+loss: 0.008996 (l2_loss: 0.016332), acc: 1.000000, valid_acc: 1.000000
+loss: 0.002028 (l2_loss: 0.016370), acc: 1.000000, valid_acc: 1.000000
+loss: 0.009097 (l2_loss: 0.016218), acc: 1.000000, valid_acc: 1.000000
+loss: 0.001199 (l2_loss: 0.015959), acc: 1.000000, valid_acc: 1.000000
+loss: 0.003522 (l2_loss: 0.015893), acc: 1.000000, valid_acc: 1.000000
+loss: 0.006914 (l2_loss: 0.015566), acc: 1.000000, valid_acc: 1.000000
+loss: 0.010799 (l2_loss: 0.015406), acc: 1.000000, valid_acc: 1.000000
+loss: 0.004881 (l2_loss: 0.015299), acc: 1.000000, valid_acc: 1.000000
+loss: 0.008252 (l2_loss: 0.015346), acc: 1.000000, valid_acc: 0.984375
+loss: 0.002523 (l2_loss: 0.015506), acc: 1.000000, valid_acc: 1.000000
+loss: 0.002845 (l2_loss: 0.015137), acc: 1.000000, valid_acc: 1.000000
+loss: 0.004211 (l2_loss: 0.015048), acc: 1.000000, valid_acc: 1.000000
+loss: 0.004083 (l2_loss: 0.015196), acc: 1.000000, valid_acc: 1.000000
+****************
+acc: 0.8916
+****************
+loss: 0.772921 (l2_loss: 0.279902), acc: 0.062500, valid_acc: 0.500000
+loss: 0.704431 (l2_loss: 0.279571), acc: 0.390625, valid_acc: 0.890625
+loss: 0.641576 (l2_loss: 0.279256), acc: 0.843750, valid_acc: 0.953125
+loss: 0.583099 (l2_loss: 0.278936), acc: 0.968750, valid_acc: 0.984375
+loss: 0.523921 (l2_loss: 0.278615), acc: 1.000000, valid_acc: 0.953125
+loss: 0.484151 (l2_loss: 0.278296), acc: 0.984375, valid_acc: 1.000000
+loss: 0.471995 (l2_loss: 0.277976), acc: 0.984375, valid_acc: 1.000000
+loss: 0.437738 (l2_loss: 0.277646), acc: 0.984375, valid_acc: 0.984375
+loss: 0.370756 (l2_loss: 0.277310), acc: 1.000000, valid_acc: 0.953125
+loss: 0.359410 (l2_loss: 0.276972), acc: 0.968750, valid_acc: 1.000000
+loss: 0.054235 (l2_loss: 0.225647), acc: 0.984375, valid_acc: 1.000000
+loss: 0.018341 (l2_loss: 0.171295), acc: 1.000000, valid_acc: 1.000000
+loss: 0.024708 (l2_loss: 0.130800), acc: 0.984375, valid_acc: 1.000000
+loss: 0.006449 (l2_loss: 0.100867), acc: 1.000000, valid_acc: 1.000000
+loss: 0.004531 (l2_loss: 0.079025), acc: 1.000000, valid_acc: 1.000000
+loss: 0.018575 (l2_loss: 0.063499), acc: 0.984375, valid_acc: 1.000000
+loss: 0.003882 (l2_loss: 0.051817), acc: 1.000000, valid_acc: 1.000000
+loss: 0.023579 (l2_loss: 0.042935), acc: 0.984375, valid_acc: 1.000000
+loss: 0.003833 (l2_loss: 0.036603), acc: 1.000000, valid_acc: 1.000000
+loss: 0.015491 (l2_loss: 0.031724), acc: 0.984375, valid_acc: 1.000000
+loss: 0.016455 (l2_loss: 0.028229), acc: 1.000000, valid_acc: 1.000000
+loss: 0.001211 (l2_loss: 0.025482), acc: 1.000000, valid_acc: 0.984375
+loss: 0.001944 (l2_loss: 0.023183), acc: 1.000000, valid_acc: 1.000000
+loss: 0.002783 (l2_loss: 0.021255), acc: 1.000000, valid_acc: 1.000000
+loss: 0.011342 (l2_loss: 0.020030), acc: 1.000000, valid_acc: 1.000000
+loss: 0.008147 (l2_loss: 0.019279), acc: 1.000000, valid_acc: 1.000000
+loss: 0.009659 (l2_loss: 0.018047), acc: 1.000000, valid_acc: 1.000000
+loss: 0.002024 (l2_loss: 0.017690), acc: 1.000000, valid_acc: 1.000000
+loss: 0.009208 (l2_loss: 0.017307), acc: 1.000000, valid_acc: 1.000000
+loss: 0.001336 (l2_loss: 0.016830), acc: 1.000000, valid_acc: 1.000000
+loss: 0.003728 (l2_loss: 0.016556), acc: 1.000000, valid_acc: 1.000000
+loss: 0.007050 (l2_loss: 0.016125), acc: 1.000000, valid_acc: 1.000000
+loss: 0.011250 (l2_loss: 0.015882), acc: 1.000000, valid_acc: 1.000000
+loss: 0.004501 (l2_loss: 0.015684), acc: 1.000000, valid_acc: 1.000000
+loss: 0.008171 (l2_loss: 0.015615), acc: 1.000000, valid_acc: 0.984375
+loss: 0.002494 (l2_loss: 0.015721), acc: 1.000000, valid_acc: 1.000000
+loss: 0.002854 (l2_loss: 0.015354), acc: 1.000000, valid_acc: 1.000000
+loss: 0.004014 (l2_loss: 0.015215), acc: 1.000000, valid_acc: 1.000000
+loss: 0.003789 (l2_loss: 0.015285), acc: 1.000000, valid_acc: 1.000000
+[[1.         0.85369947]
+ [0.85369947 1.        ]]
+0.8536994698870632
