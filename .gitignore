@@ -1,5 +1,3 @@
-data/*
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -53,7 +51,6 @@ coverage.xml
 *.pot
 
 # Django stuff:
-*.log
 local_settings.py
 
 # Flask stuff:
@@ -105,4 +102,3 @@ ENV/
 .idea/
 MUJOCO_LOG.TXT
 analysis/
-results/
