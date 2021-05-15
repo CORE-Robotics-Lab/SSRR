@@ -1,0 +1,40 @@
+# For learned reward training
+HalfCheetah-v3:
+  env_wrapper: {"script_experiment.rl_utils.wrappers.CustomNormalizedReward": {"model_dir": "/home/zac/Programming/Zac-SSRR/results/halfcheetah/noisy_airl_data_ssrr_4/ssrr/", "ctrl_coeff": 0.1, "alive_bonus": 0.0}}
+  n_timesteps: !!float 1e6
+  policy: 'CustomSACPolicy'
+  learning_rate: !!float 3e-4
+  buffer_size: 1000000
+  batch_size: 256
+  ent_coef: 'auto'
+  train_freq: 1
+  gradient_steps: 1
+  learning_starts: 10000
+
+# For learned reward training
+Hopper-v3:
+  env_wrapper: {"utils.wrappers.CustomNormalizedReward": {"model_dir": "/home/zac/Programming/Zac-SSRR/results/hopper/noisy_airl_data_ssrr_1/ssrr/", "ctrl_coeff": 0.001, "alive_bonus": 0.0}}
+  n_timesteps: !!float 2e6
+  policy: 'CustomSACPolicy'
+  learning_rate: lin_3e-4
+  buffer_size: 1000000
+  batch_size: 256
+  ent_coef: 0.01
+  train_freq: 1
+  gradient_steps: 1
+  learning_starts: 1000
+
+# For learned reward training
+Ant-v3:
+  env_wrapper: { "utils.wrappers.CustomNormalizedReward": { "model_dir": "/home/zac/Programming/Zac-SSRR/results/ant/noisy_airl_data_ssrr_1/ssrr/", "ctrl_coeff": 0.5, "alive_bonus": 0.0 } }
+  n_timesteps: !!float 2e6
+  policy: 'CustomSACPolicy'
+  learning_rate: !!float 3e-4
+  buffer_size: 1000000
+  batch_size: 256
+  ent_coef: 'auto'
+  gamma: 0.98
+  train_freq: 1
+  tau: 0.01
+  gradient_steps: 1
+  learning_starts: 10000
