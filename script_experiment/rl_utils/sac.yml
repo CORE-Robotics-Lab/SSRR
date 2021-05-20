@@ -13,7 +13,7 @@ HalfCheetah-v3:
 
 # For learned reward training
 Hopper-v3:
-  env_wrapper: {"utils.wrappers.CustomNormalizedReward": {"model_dir": "/home/zac/Programming/Zac-SSRR/results/hopper/noisy_airl_data_ssrr_1/ssrr/", "ctrl_coeff": 0.001, "alive_bonus": 0.0}}
+  env_wrapper: {"script_experiment.rl_utils.wrappers.CustomNormalizedReward": {"model_dir": "/home/zac/Programming/Zac-SSRR/results/hopper/noisy_airl_data_ssrr_1/ssrr/", "ctrl_coeff": 0.001, "alive_bonus": 0.0}}
   n_timesteps: !!float 2e6
   policy: 'CustomSACPolicy'
   learning_rate: lin_3e-4
@@ -26,7 +26,7 @@ Hopper-v3:
 
 # For learned reward training
 Ant-v3:
-  env_wrapper: { "utils.wrappers.CustomNormalizedReward": { "model_dir": "/home/zac/Programming/Zac-SSRR/results/ant/noisy_airl_data_ssrr_1/ssrr/", "ctrl_coeff": 0.5, "alive_bonus": 0.0 } }
+  env_wrapper: { "script_experiment.rl_utils.wrappers.CustomNormalizedReward": { "model_dir": "/home/zac/Programming/Zac-SSRR/results/ant/noisy_airl_data_ssrr_1/ssrr/", "ctrl_coeff": 0.5, "alive_bonus": 0.0 } }
   n_timesteps: !!float 2e6
   policy: 'CustomSACPolicy'
   learning_rate: !!float 3e-4
