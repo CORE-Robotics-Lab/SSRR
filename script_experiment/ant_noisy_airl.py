@@ -38,7 +38,7 @@ def main():
 
     # Hyperparameters
     discriminator_update_step = 10
-    n_epochs = 2000
+    n_epochs = 3000
     log_path = args.output_dir
 
     irl_model = NoisyAIRL(env=env, expert_trajs=experts, state_only=True, fusion=True, max_itrs=discriminator_update_step,
@@ -69,7 +69,7 @@ def main():
         gae_lambda=0.97,
         step_size=0.01,
         optimizer_args=dict(reg_coeff=0.1, cg_iters=10),
-        reward_batch_size=512,
+        reward_batch_size=5120,
         num_policy_steps=3,
     )
 

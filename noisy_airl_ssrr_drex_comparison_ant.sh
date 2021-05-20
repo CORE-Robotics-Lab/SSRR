@@ -15,7 +15,7 @@ do
    --bc_agent=./results/ant/noisy_airl_data_ssrr_${loop}/bc/model.ckpt \
    --demo_trajs=./demos/suboptimal_demos/ant/dataset.pkl \
    --noise_range='np.arange(0.0,1.0,0.05)' \
-   --airl_path=./data/ant_noisy_airl_test_1/itr_1800.pkl \
+   --airl_path=./data/ant_noisy_airl_test_1/itr_1990.pkl \
    --airl \
    --seed="${loop}" \
    > ./results/ant/noisy_airl_data_ssrr_${loop}/noisy_dataset/noise_dataset.log \
